@@ -1,3 +1,3 @@
 module.exports = {
-    entryPath: './src/pdf-import.module.ts',
+    entryPath: './src/zip-import.module.ts',
 };
