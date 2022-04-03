@@ -16,7 +16,7 @@ import { pdfToImages } from './pdfToImages';
 
 declareModule({
     manifest: {
-        name: '@collboard/pdf-import',
+        name: '@collboard/zip-import',
         contributors,
         description,
         license,
