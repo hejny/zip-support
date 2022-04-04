@@ -40,12 +40,13 @@ declareModule({
                 // TODO: [➰] const result = Registration.void();
 
                 for (const zipObject of Object.values(zipDoc.files)) {
+                    if (zipObject.dir) {
+                        continue;
+                    }
+
                     const file = new File([await zipObject.async('blob')], zipObject.name);
 
                     logger.info(`File in zip`, { zipObject, file });
-
-                    // !!! All the filez
-                    //return Registration.void();
 
                     // TODO: [➰] const importing =  await importSystem.importFile(...
                     await importSystem.importFile({
@@ -54,9 +55,6 @@ declareModule({
                     });
                     boardPosition = boardPosition.add(new Vector(30, 30).scale(1 / appState.transform.scale.x));
                     // TODO: [➰] result.addSubdestroyable(importing);
-
-                    // !!! All the filez
-                    //eturn Registration.void();
                 }
 
                 return Registration.void();
