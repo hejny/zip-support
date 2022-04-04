@@ -45,7 +45,7 @@ declareModule({
                     logger.info(`File in zip`, { zipObject, file });
 
                     // !!! All the filez
-                    return Registration.void();
+                    //return Registration.void();
 
                     // TODO: [➰] const importing =  await importSystem.importFile(...
                     await importSystem.importFile({
@@ -56,7 +56,7 @@ declareModule({
                     // TODO: [➰] result.addSubdestroyable(importing);
 
                     // !!! All the filez
-                    return Registration.void();
+                    //eturn Registration.void();
                 }
 
                 return Registration.void();
