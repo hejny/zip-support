@@ -1,6 +1,6 @@
 {
     "name": "@collboard/zip-support",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Support for ZIP archives for Collboard.com created via @collboard/modules-sdk.",
     "license": "SEE LICENSE IN LICENSE",
     "contributors": [
