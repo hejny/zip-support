@@ -27,7 +27,7 @@ declareModule({
 
         return importSystem.registerFileSupport({
             priority: 10,
-            async processFile({ logger, file: zipFile, boardPosition, previewOperation, willCommitArts, next }) {
+            async importFile({ logger, file: zipFile, boardPosition, previewOperation, willCommitArts, next }) {
                 if (!mimeTypes.some((mimeType) => patternToRegExp(mimeType).test(zipFile.type))) {
                     return next();
                 }
