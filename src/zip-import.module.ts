@@ -53,7 +53,7 @@ declareModule({
                         file,
                         boardPosition,
                     });
-                    boardPosition = boardPosition.add(new Vector(30, 30).scale(1 / appState.transform.scale.x));
+                    boardPosition = boardPosition.add(new Vector(30, 30).scale(1 / appState.transform.value.scale.x));
                     // TODO: [➰] result.addSubdestroyable(importing);
                 }
 
