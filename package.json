@@ -20,7 +20,7 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "@collboard/modules-sdk": "27.39.100",
+        "@collboard/modules-sdk": "27.40.100",
         "destroyable": "0.9.0",
         "jszip": "3.8.0",
         "tslint": "6.1.3",
