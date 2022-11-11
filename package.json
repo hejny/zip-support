@@ -1,6 +1,6 @@
 {
     "name": "@collboard/zip-support",
-    "version": "1.0.123",
+    "version": "1.0.124",
     "description": "Support for ZIP archives for Collboard.com See all file support modules for Collboard.",
     "license": "SEE LICENSE IN LICENSE",
     "contributors": [
@@ -20,7 +20,7 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "@collboard/modules-sdk": "28.3.0",
+        "@collboard/modules-sdk": "29.0.0",
         "destroyable": "0.9.0",
         "jszip": "3.8.0",
         "tslint": "6.1.3",
