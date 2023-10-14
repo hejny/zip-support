@@ -16,9 +16,9 @@ Support for ZIP archives for [Collboard.com](https://collboard.com/) created via
 
 [![License of 🗃️ Zip archives for Collboard](https://img.shields.io/github/license/collboard/zip-support.svg?style=flat)](https://github.com/collboard/zip-support/blob/main/LICENSE)
 [![lint](https://github.com/collboard/zip-support/actions/workflows/lint.yml/badge.svg)](https://github.com/collboard/zip-support/actions/workflows/lint.yml)
-[![test](https://github.com/collboard/zip-support/actions/workflows/test.yml/badge.svg)](https://github.com/collboard/zip-support/actions/workflows/test.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/collboard/zip-support/badge.svg)](https://snyk.io/test/github/collboard/zip-support)
 [![Issues](https://img.shields.io/github/issues/collboard/zip-support.svg?style=flat)](https://github.com/collboard/zip-support/issues)
+<!--[![test](https://github.com/collboard/zip-support/actions/workflows/test.yml/badge.svg)](https://github.com/collboard/zip-support/actions/workflows/test.yml)-->
 
 <!--/Badges-->
 
