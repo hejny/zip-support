@@ -19,7 +19,7 @@
         "postversion": "git push && git push --tags"
     },
     "devDependencies": {
-        "@collboard/modules-sdk": "35.13.100",
+        "@collboard/modules-sdk": "35.13.200",
         "destroyable": "0.12.9",
         "jszip": "3.8.0",
         "tslint": "6.1.3",
